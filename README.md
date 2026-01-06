@@ -1,6 +1,3 @@
-Basic Nginx-HTML Project
-A simple Dockerized web server using Docker Compose. This project serves a custom HTML file using the official Nginx image.
-
 How to Run
 Clone the repo:
 
@@ -20,7 +17,7 @@ docker-compose.yml: Defines the Nginx service and port mapping.
 
 index.html: Your custom website content.
 
- Stop the App
+🛑 Stop the App
 Bash
 
 docker compose down
