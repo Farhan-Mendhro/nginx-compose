@@ -4,8 +4,8 @@
 
 ```Bash
 
-git clone <https://github.com/Farhan-Mendhro/nginx-compose.git>
-cd <https://github.com/Farhan-Mendhro/nginx-compose.git>
+git clone https://github.com/Farhan-Mendhro/nginx-compose.git
+cd https://github.com/Farhan-Mendhro/nginx-compose.git
 
 ```
 
