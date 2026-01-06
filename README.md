@@ -1,10 +1,11 @@
- How to Run
+# Basic Nginx-HTML Project
+ 
 1.Clone the repository:
 
 ```Bash
 
-git clone <your-repo-link>
-cd <repo-folder>
+git clone <https://github.com/Farhan-Mendhro/nginx-compose.git>
+cd <https://github.com/Farhan-Mendhro/nginx-compose.git>
 
 ```
 
