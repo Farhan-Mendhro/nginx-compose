@@ -1,24 +1,36 @@
-How to Run
-Clone the repo:
+ How to Run
+1.Clone the repository:
 
 ```Bash
-git clone <your-repo-url>
-cd <your-repo-folder>
-Start the container:
+
+git clone <your-repo-link>
+cd <repo-folder>
+
 ```
 
-```Bash
+2.Start the application:
+
+```bash
+
 docker compose up -d
+
 ```
 
-View the site: Open your browser and go to: http://localhost:8080
+3.View the site: Open your browser and go to: http://localhost:8080
+
 
 🛠️ Project Structure
-docker-compose.yml: Defines the Nginx service and port mapping.
+index.html: The static frontend file.
 
-index.html: Your custom website content.
+docker-compose.yml: The blueprint that maps the HTML file into the Nginx container.
 
-🛑 Stop the App
-```Bash
-docker compose down
+
+Docker Commands Used
+
+```bash
+
+Start: docker compose up -d
+Stop:	docker compose down
+Check Logs:	docker compose logs -f
+
 ```
